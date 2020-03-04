@@ -5,6 +5,7 @@ def valid_move?(index)
       return false
     else board[index] == "X" || board[index] == "O"
       return true
+    end
   end
 
   def on_board?(board, index)
