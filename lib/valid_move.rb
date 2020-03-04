@@ -12,7 +12,5 @@ def valid_move?(index)
   else
     [index].between?(9)
     return true
-  else
-    return false
   end
 end
