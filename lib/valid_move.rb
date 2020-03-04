@@ -12,7 +12,7 @@ def valid_move?(index)
       return true
     else
       return false
-    end 
+    end
 
   if position_taken? == false && on_board? == true
     return true
